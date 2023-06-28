@@ -1,0 +1,67 @@
+<!-- Write an HTML script to demonstrate HTML Table Elements -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML table elements</title>
+        <style>
+            table,
+            td,
+            th {
+                border: 1px solid #000;
+                padding: 10px;
+            }
+            table {
+                border-collapse: collapse;
+                margin: auto;
+            }
+            caption {
+                margin: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- In HTML tables can be created using table elements such as
+            <table>, <th>, <tbody>, <thead>, <tr>, <td>, <caption>, <tfoot>, <colgroup> -->
+
+        <table>
+            <caption>
+                Employees
+            </caption>
+            <colgroup>
+                <col style="background-color: rgb(214, 187, 187)" />
+                <col style="background-color: rgb(159, 159, 226)" />
+                <col style="background-color: rgb(251, 251, 163)" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>age</th>
+                    <th>job</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>23</td>
+                    <td>Network administrator</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>21</td>
+                    <td>Frontend developer</td>
+                </tr>
+                <tr>
+                    <td>Smith</td>
+                    <td>30</td>
+                    <td>Fullstack developer</td>
+                </tr>
+                <tr>
+                    <td>Luffy</td>
+                    <td>19</td>
+                    <td>Intern</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
